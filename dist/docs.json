@@ -20,6 +20,68 @@
         "docs": "",
         "complexTypes": [],
         "slug": "echo"
+      },
+      {
+        "name": "pause",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "pause"
+      },
+      {
+        "name": "play",
+        "signature": "(options: { uri: string; token: string; clientId: string; positionMs: number; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ uri: string; token: string; clientId: string; positionMs: number; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "play"
+      },
+      {
+        "name": "resume",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "resume"
+      },
+      {
+        "name": "seekTo",
+        "signature": "(options: { position_ms: number; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ position_ms: number; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "seekto"
+      },
+      {
+        "name": "getPosition",
+        "signature": "() => Promise<{ position_ms: number; }>",
+        "parameters": [],
+        "returns": "Promise<{ position_ms: number; }>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "getposition"
       }
     ],
     "properties": []
