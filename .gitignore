@@ -11,7 +11,8 @@ xcuserdata
 # macOS files
 .DS_Store
 
-
+# VS Code files
+.vscode
 
 # Based on Android gitignore template: https://github.com/github/gitignore/blob/HEAD/Android.gitignore
 

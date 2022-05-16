@@ -56,3 +56,6 @@ dependencies {
     androidTestImplementation "androidx.test.ext:junit:$androidxJunitVersion"
     androidTestImplementation "androidx.test.espresso:espresso-core:$androidxEspressoCoreVersion"
 }
+
+compile 'com.spotify.sdk:spotify-player-24-noconnect-2.20b@aar'
+
