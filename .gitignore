@@ -14,6 +14,8 @@ xcuserdata
 # VS Code files
 .vscode
 
+.node_modules
+
 # Based on Android gitignore template: https://github.com/github/gitignore/blob/HEAD/Android.gitignore
 
 # Built application files
