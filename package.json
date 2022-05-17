@@ -1,6 +1,6 @@
 {
   "name": "spotify-streaming-capacitor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
