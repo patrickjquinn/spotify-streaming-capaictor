@@ -20,10 +20,11 @@ import AVFoundation
     @objc public func play(_ uri: String, _ token: String, _ client: String) -> Any {
         do {
             try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default, options: [.allowAirPlay])
+            try self.player.start(withClientId: client)
         } catch {
             print("Couldn't create the audio player for file")
         }
-        self.player.start(withClientId: client)
+        
         self.player.login(withAccessToken: token)
         self.player.playSpotifyURI(uri, startingWith: 0, startingWithPosition: 0, callback: nil)
         return ""

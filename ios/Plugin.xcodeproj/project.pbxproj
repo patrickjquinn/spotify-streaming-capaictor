@@ -76,7 +76,6 @@
 		50ADFF7E201F53D600D50D53 = {
 			isa = PBXGroup;
 			children = (
-				D1D5AB8A2832A2A300E6E6F4 /* SpotifyAudioPlayback.framework */,
 				50ADFF8A201F53D600D50D53 /* Plugin */,
 				D1D5AB8C2832AF6F00E6E6F4 /* SpotifyStreaming-Bridging-Header.h */,
 				50ADFF95201F53D600D50D53 /* PluginTests */,
@@ -98,6 +97,7 @@
 		50ADFF8A201F53D600D50D53 /* Plugin */ = {
 			isa = PBXGroup;
 			children = (
+				D1D5AB8A2832A2A300E6E6F4 /* SpotifyAudioPlayback.framework */,
 				50E1A94720377CB70090CE1A /* SpotifyStreamingPlugin.swift */,
 				2F98D68124C9AAE400613A4C /* SpotifyStreaming.swift */,
 				50ADFF8B201F53D600D50D53 /* SpotifyStreamingPlugin.h */,
